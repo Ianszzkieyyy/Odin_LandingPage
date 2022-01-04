@@ -1,10 +1,26 @@
+/* COLORS AND FONT STYLES
+
+DARK BG COLOR (HERO AND FOOTER): #1F2937
+HERO MAIN TEXT: 48PX EXTRA BOLD #F9FAF8
+HERO SECONDARY AND HEADER LINK TEXT: 18PX #E5E7EB
+HEADER LOGO: 24PX #F9FAF8
+
+BUTTON COLOR AND CTA BG COLOR: #38826F
+INFO HEADER TEXT: 36PX #1F2937
+
+QUOTE SECTION BG COLOR #E5E7EB
+QUOTE TEXT 36PX LIGHT ITALIC #1F2937
+
+*/
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .inner {
@@ -57,6 +73,7 @@ body {
 
 .hero-h1 {
     color: #f9faf8;
+    font-weight: 800;
     font-size: 48px;
     margin-bottom: 20px;
 }
@@ -64,6 +81,7 @@ body {
 .hero-h2 {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -74,7 +92,6 @@ body {
     background-color: #3882f6;
     border: none;
     border-radius: 4px;
-    
 }
 
 .hero-img {
@@ -83,3 +100,96 @@ body {
     background-color: white;
     border-radius: 10px;
 }
+
+.content {
+    margin: 150px auto;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 200px;
+    text-align: center;
+}
+
+.skill-img > img {
+    width: 125px;
+    margin-bottom: 25px;
+}
+
+.testimonials {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.testimonials-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-text {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 150px;
+    align-self: flex-end;
+}
+
+.cta-flex {
+    background-color: #3882F6;
+    margin: 150px 0;
+    padding: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-h1 {
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.cta-h2 {
+    color: #E5E7EB;
+    font-weight: light;
+}
+
+.cta-button {
+    font-size: 20px;
+    padding: 8px 16px;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    text-align: center;
+}
+
+
+
